@@ -1,0 +1,123 @@
+*{
+				padding: 0;
+				margin: 0;
+			}
+			#title{
+				width: auto;
+				height: 90px;
+				background-color: #00B0F0;
+				
+				text-align: center;
+				line-height: 90px;
+				font-size: 20px;
+				color: #ffffff;
+				
+			}
+			
+			#body{
+				width: auto;
+				height: 80px;
+				text-align: center;
+			}
+			#inputbox .inputbox-input{
+				width: 700px;
+				height: 40px;
+				border: 1px solid #c3d0d0;
+				border-radius: 10px;
+				margin-top: 30px;
+				
+				font-size: 20px;
+			}
+			#inputbox .inputbox-button{
+				width: 120px;
+				height: 40px;
+				background-color: #00B0F0;
+				color: #FFFFFF;
+				padding: 9px 20px;
+				margin-left: 10px;
+				border: 1px solid #C3D0D0;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			#container{
+				width: auto;
+				height: 600px;
+				margin-top: 50px;
+			}
+			#done{
+				width: 800px;
+				height: 50px;
+				background-color: #00B0F0;
+				margin: auto;
+				border: 1px solid #ffffff;
+				border-radius: 5px;
+				
+				
+				color: #FFFFFF;
+				line-height: 50px;
+				font-size: 20px;
+				font-weight: 600;
+				
+			}
+			#notdone{
+				width: 800px;
+				height: 50px;
+				background-color: #00B0F0 ;
+				margin: auto;
+				border: 1px solid #ffffff;
+				border-radius: 5px;
+				
+				
+				color: #FFFFFF;
+				line-height: 50px;
+				font-size: 20px;
+				font-weight: 600;
+				
+			}
+			#cancel{
+				width: 800px;
+				height: 50px;
+				background-color: #00B0F0;
+				margin: auto;
+				border: 1px solid #ffffff;
+				border-radius: 5px;
+				
+				
+				color: #FFFFFF;
+				line-height: 50px;
+				font-size: 20px;
+				font-weight: 600;
+			}
+			#done .pointer1,#notdone .pointer2,#cancel .pointer3{
+				display: block;
+				cursor: pointer;
+				
+				position: relative;
+				left: 750px;
+				top: -45px;
+				
+				width: 40px;
+				height: 40px;
+				
+				background-color: #0093c8;
+				font-size: 40px;
+				line-height: 40px;
+				
+				border-radius: 2px;
+				
+				transform:rotate(90deg);
+				-ms-transform:rotate(90deg); /* Internet Explorer */
+				-moz-transform:rotate(90deg); /* Firefox */
+				-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+				-o-transform:rotate(90deg); /* Opera */
+			}
+			
+			.pointer1Checkbox{
+				display: none;
+			}
+			.pointer2Checkbox{
+				display: none;
+			}
+			.pointer3Checkbox{
+				display: none;
+			}

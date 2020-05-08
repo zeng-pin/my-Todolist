@@ -3,108 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<style>
-			*{
-				padding: 0;
-				margin: 0;
-			}
-			#title{
-				width: auto;
-				height: 90px;
-				background-color: #00B0F0;
-				
-				text-align: center;
-				line-height: 90px;
-				font-size: 20px;
-				color: #ffffff;
-				
-			}
-			
-			#body{
-				width: auto;
-				height: 80px;
-				text-align: center;
-			}
-			#inputbox .inputbox-input{
-				width: 700px;
-				height: 40px;
-				border: 1px solid #c3d0d0;
-				border-radius: 10px;
-				margin-top: 30px;
-				
-				font-size: 20px;
-			}
-			#inputbox .inputbox-button{
-				width: 120px;
-				height: 40px;
-				background-color: #00B0F0;
-				color: #FFFFFF;
-				padding: 9px 20px;
-				margin-left: 10px;
-				border: 1px solid #C3D0D0;
-				border-radius: 5px;
-				cursor: pointer;
-			}
-			#container{
-				width: auto;
-				height: 600px;
-				margin-top: 50px;
-			}
-			#done{
-				width: 800px;
-				height: 50px;
-				background-color: #00B0F0;
-				margin: auto;
-				border: 1px solid #ffffff;
-				border-radius: 5px;
-				cursor: pointer;
-				
-				color: #FFFFFF;
-				line-height: 50px;
-				font-size: 20px;
-				font-weight: 600;
-				
-			}
-			#notdone{
-				width: 800px;
-				height: 50px;
-				background-color: #00B0F0 ;
-				margin: auto;
-				border: 1px solid #ffffff;
-				border-radius: 5px;
-				cursor: pointer;
-				
-				color: #FFFFFF;
-				line-height: 50px;
-				font-size: 20px;
-				font-weight: 600;
-				
-			}
-			#cancel{
-				width: 800px;
-				height: 50px;
-				background-color: #00B0F0;
-				margin: auto;
-				border: 1px solid #ffffff;
-				border-radius: 5px;
-				cursor: pointer;
-				
-				color: #FFFFFF;
-				line-height: 50px;
-				font-size: 20px;
-				font-weight: 600;
-			}
-			#done .pointer,#notdone .pointer,#cancel .pointer{
-				position: relative;
-				left: 350px;
-				width: 30px;
-				height: 30px;
-				padding: 0px 6px;
-				background-color: #0093c8;
-				line-height: 50px;
-				border-radius: 2px;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
 	</head>
 	<body>
 		<div id="title">
@@ -120,11 +19,19 @@
 			<div id="inputbox"><input type="text" class="inputbox-input" placeholder="请输入"><span class="inputbox-button">提交</span></div>
 		
 			<div id="container">
-				<div id="done">未完成 <span class="pointer"> > </span></div>
-				<div id="notdone">已完成 <span class="pointer"> > </span></div>
-				<div id="cancel">已取消 <span class="pointer"> > </span></div>
+				<div id="done">未完成 <span class="pointer1"> △ </span> <input type="checkbox" class="pointer1Checkbox" > </div>
+				<div id="notdone">已完成 <span class="pointer2"> △ </span> <input type="checkbox" class="pointer2Checkbox" > </div>
+				<div id="cancel">已取消 <span class="pointer3"> △ </span> <input type="checkbox" class="pointer3Checkbox" > </div>
 			</div>
 		</div>
+		
+		
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.rotate.min.js"></script>
+		<script src="js/animation.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/support.js"></script>
 		
 		
 	</body>
